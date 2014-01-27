@@ -1,0 +1,143 @@
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Neucha', serif;
+	background-color: #e85454;
+}
+
+section {
+	width: 50%;
+	margin: 0 auto;
+	background: #ecffa8;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+.inputForm {
+	text-align: center;
+}
+
+h1 {
+	position: relative;
+	font-size: 38px;
+	margin: 50px;
+	padding: 8px 0;
+}
+
+h1:before, h1:after {
+	content: "";
+	position: absolute;
+	background: #ecffa8;
+	top: 0;
+	bottom: 0;
+	width: 9999px;
+}
+
+h1:before {
+	right: 100%;
+}
+
+h1:after {
+	left: 100%;
+}
+
+h1:nth-of-type(1), h1:nth-of-type(1):before, h1:nth-of-type(1):after { background: #ecffa8; }
+
+.inputForm {
+	margin: -30px 0 30px;
+}
+
+#newItem {
+	font-size: 13px;
+	height: 32px;
+	width: 200px;
+	margin-left: 5px;
+	margin-right: 3px;
+}
+
+#addButton {
+	color: black;
+	width: 50px;
+	height: 32px;
+	font-weight: bold;
+	background-color: #90e24c;
+	border: 1px solid #90e24c;
+	box-shadow: 0px 2px 3px #000;
+	-moz-box-shadow:0px 2px 3px #000;
+	-webkit-box-shadow:0px 2px 3px #000;
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	margin-left: 3px;
+}
+
+p {
+	font-size: 13px;
+	padding: 10px auto;
+}
+
+
+ul {
+	list-style: none;
+	font-size: 25px;
+	color: black;
+}
+
+li {
+	background-color: #ecffa8;
+	border: 1px solid #737373;
+	border-radius: 2px;
+	width: 400px;
+	list-style: none;
+	margin: auto;
+	box-shadow: 0px 2px 3px #000;
+	-moz-box-shadow:0px 2px 3px #000;
+	-webkit-box-shadow:0px 2px 3px #000;
+	line-height: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+input.checkOut {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+input[type="checkbox"] {
+	box-sizing: border-box;
+}
+
+.trashItem {
+	float: right;
+	display: inline-block;
+	margin-top: 8px;
+	margin-right: 8px;
+	height: 23px;
+	width: auto;
+}
+
+.clearList {
+	text-align: center;
+}
+
+#deleteList {
+	background-color: #19b5c2;
+	color: black;
+	width: 130px;
+	height: 32px;
+	font-weight: bold;
+	border: 1px solid #19b5c2;
+	box-shadow: 0px 2px 3px #000;
+	-moz-box-shadow:0px 2px 3px #000;
+	-webkit-box-shadow:0px 2px 3px #000;
+	position: relative;
+	top: -1px;
+	margin-left: 3px;
+
+}
