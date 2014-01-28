@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 // Check off list items and move them to bottom of list, or uncheck to move to top of list
 function checkUncheck() {
-	$("[type="checkbox"]").on("click", function() {
+	$("[type='checkbox']").on("click", function() {
 		var itemsList = $(this).parent();
 
 		if($(this).is(":checked")) {
@@ -43,7 +43,7 @@ function checkUncheck() {
 // Delete checked items off of list
 	$("#deleteList").click(function() {
 		var dialog = confirm("Are you sure you want to delete these items?");
-		var deleteItem = $("input[type="checkbox"]:checked");
+		var deleteItem = $("input[type='checkbox']:checked");
 
 		if(dialog === true) {
 			$(deleteItem).parent().detach();
